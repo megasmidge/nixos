@@ -30,31 +30,53 @@
 
     # === APPS ===
     # -- browsers --
-    
-vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+   brave
+ 
+   # text editor
+   vim
+
+   # scrape the net
    wget
    git
-   brave
+   curl   
+ 
+   #stupid flex stuff
    fastfetch
    cmatrix
+   catppuccinifier-cli
+   
+   # dev ide
    vscodium
+   
+   # shell-life
    kitty
    alacritty
-   obs-studio
-   pavucontrol
-   vmware-workstation
-   unzip
-   obsidian
-   obs-studio
    tmux
+
+   # audio picker
+   pavucontrol
+
+   # zipped
+   unzip
+
+   # notes
+   obsidian
+   
+   # videos
+   obs-studio
    shotcut
-   openssl
-   fastfetch
-   curl
-   catppuccinifier-cli
+
+   # comms 
    signal-desktop
+
+   # ssl   
+   openssl
+
+   # file explorer
    nautilus
    udiskie
+   xfce.thunar
 ];
    
 }
+
